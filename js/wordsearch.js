@@ -130,9 +130,6 @@
       
 	  var condition = this.settings.condition;
 	  var endoflist = this.settings.words.length;	//default to add all words
-	  if (condition == 1) {
-		endoflist = 3;					//if condition = 1 then only add first two words
-	  }
 	  
 	  if (this.settings.test) {
 		endoflist = 1;
